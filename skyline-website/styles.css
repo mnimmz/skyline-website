@@ -1,0 +1,224 @@
+#homepage {
+  background: linear-gradient(rgba(84,124,140,.8), rgba(84,124,140,.8)), url("images/city-background.jpeg");
+  background-size: cover;
+
+}
+
+/* navigation */
+nav ul {
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+
+nav ul li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+
+}
+
+.nav-links{
+  color: white;
+  text-decoration: none;
+  font-family: futura;
+  letter-spacing: 1px;
+  font-weight: 400;
+
+}
+
+.nav-links.darker {
+  color: #0E2E47;
+}
+
+.nav-links.subscribe {
+  padding-right: 30px;
+}
+
+/* main section */
+main {
+  clear: both;
+}
+
+/* home page */
+.home-header {
+  text-align: center;
+  margin: auto;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: futura;
+  top: 40%;
+  display: block;
+  margin-top: 0;
+
+}
+
+.home-h1, .home-h3 {
+  color: #ffffff;
+}
+
+.home-h1 {
+  font-size: 83px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.home-h3 {
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+/* product page */
+
+#our-product {
+  background: linear-gradient(to top, rgba(222,227,231,0), rgba(222,227,231,.5));
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.product-title, .about-header, .blog-header {
+  text-align: center;
+  padding-top: 100px;
+  text-transform: uppercase;
+  font-family: futura;
+  letter-spacing: 1px;
+}
+
+.product-description, .about-text {
+  padding: 10px 400px 10px 400px;
+  font-family: open sans;
+  line-height: 30px;
+}
+
+.app {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+
+/* about page */
+.subscribe-paragraph {
+  font-family: futura;
+  text-align: center;
+  padding-top: 40px;
+
+}
+
+::-webkit-input-placeholder {
+  color: #dee3e7;
+}
+
+.email-box {
+  margin: auto;
+  display: block;
+  padding: 15px 200px 15px 10px;
+  font-family: futura;
+  letter-spacing: 2px;
+}
+
+.subscribe-btn {
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  background-color: #0E2E47;
+  border: none;
+  color: white;
+  padding: 13px 30px 13px 30px;
+  font-family: futura;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+
+/* subcribe page */
+#subscribe-padding{
+  margin-bottom: 200px;
+}
+
+#form-background {
+  background-color: #eff0f2;
+  margin: 0 400px 0 400px;
+  padding: 20px 0 50px 0;
+  border: 5px dotted #0e2e47;
+}
+
+
+/* blog page */
+.blog-header {
+  padding-bottom: 30px;
+}
+
+.blogpost-1, .blogpost-2 {
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 30px;
+}
+
+.blogpost-header {
+  font-family: futura;
+  text-align: center;
+}
+
+.post1-paragraph, .post2-paragraph  {
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.read-btn {
+  margin: auto;
+  display: block;
+  margin-top: 5px;
+  background-color: #0E2E47;
+  border: none;
+  color: white;
+  padding: 8px 15px 8px 15px;
+  font-family: futura;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+.read-btn:hover {
+  background-color: #97a0a8;
+}
+
+.redirect {
+  font-size: 24px;
+}
+
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-family: futura;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+footer.footer-light {
+  position: relative;
+  color: #0E2E47;
+  padding-top: 100px;
+}
+
+footer.bottom {
+  position: absolute;
+}
+
+footer.blog-footer {
+  position: absolute;
+}
